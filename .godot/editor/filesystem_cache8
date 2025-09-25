@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758807776
+::res://::1758808278
 godot_tours.log::TextFile::-1::1756654622::0::1::::<><>::
-godot_tours.tres::Resource/TourList::6375578342048621651::1756654519::0::1::::<><>::res://addons/godot_tours/godot_tour_list.gd<>uid://bx2ycox2inait::::res://tours/entries/01_player_movement.tres<>uid://bhmkr08evau0y::::res://tours/entries/05_shoot_bulelts.tres<>uid://d2dnsmib4yrm8::::res://tours/entries/03_parallax.tres
+godot_tours.tres::Resource/TourList::6375578342048621651::1758808145::0::1::::<><>::res://addons/godot_tours/godot_tour_list.gd<>uid://bx2ycox2inait::::res://tours/entries/01_player_movement.tres<>uid://bhmkr08evau0y::::res://tours/entries/05_shoot_bulelts.tres<>uid://d2dnsmib4yrm8::::res://tours/entries/03_parallax.tres
 icon.svg::CompressedTexture2D::4362368380677387683::1744218484::1744218491::1::::<><>::
 test_video.ogv::VideoStreamTheora::-1::1744254207::0::1::::<><>::
-world.tscn::PackedScene::3952097778512897520::1757606864::0::1::::<><>::
+world.tscn::PackedScene::3952097778512897520::1758808145::0::1::::<><>::
 ::res://addons/::1758804298
 ::res://addons/gd-plug/::1758804298
 plug.gd::GDScript::-1::1744218525::0::1::::<>SceneTree<>::
@@ -1055,9 +1055,9 @@ highlight.tscn::PackedScene::7216596171565299285::1744218531::0::1::::<><>::uid:
 ::res://addons/godot_tours/translation/::1758804309
 translation_parser.gd::GDScript::-1::1744218531::0::1::::<>EditorTranslationParserPlugin<>::
 translation_service.gd::GDScript::-1::1744218531::0::1::::<>RefCounted<>::
-::res://addons/godot_tours/ui/::1758804309
+::res://addons/godot_tours/ui/::1758808145
 theme_utils.gd::GDScript::-1::1744218531::0::1::::<>RefCounted<>::
-theme_welcome_menu.tres::Theme::2260626022723727733::1756654319::0::1::::<><>::uid://cxeo2n3ky21xb::::res://addons/godot_tours/assets/fonts/mukta_bold.ttf<>uid://dmv0g5yqal8s7::::res://addons/godot_tours/assets/icons/lock.svg<>uid://b0tcgxag5h452::::res://addons/godot_tours/assets/fonts/poppins_regular.ttf<>uid://b0egmv7mkouwp::::res://addons/godot_tours/assets/fonts/poppins_bold.ttf<>uid://cowlnwvq0rikj::::res://addons/godot_tours/assets/fonts/poppins_italic.ttf<>uid://c3xincxynype7::::res://addons/godot_tours/assets/fonts/hasklug_nerd_mono.otf
+theme_welcome_menu.tres::Theme::2260626022723727733::1758808145::0::1::::<><>::uid://cxeo2n3ky21xb::::res://addons/godot_tours/assets/fonts/mukta_bold.ttf<>uid://dmv0g5yqal8s7::::res://addons/godot_tours/assets/icons/lock.svg<>uid://b0tcgxag5h452::::res://addons/godot_tours/assets/fonts/poppins_regular.ttf<>uid://b0egmv7mkouwp::::res://addons/godot_tours/assets/fonts/poppins_bold.ttf<>uid://cowlnwvq0rikj::::res://addons/godot_tours/assets/fonts/poppins_italic.ttf<>uid://c3xincxynype7::::res://addons/godot_tours/assets/fonts/hasklug_nerd_mono.otf
 ui_button_godot_tours.gd::GDScript::-1::1744255181::0::1::::<>Button<>::
 ui_button_godot_tours.tscn::PackedScene::3420466119053531884::1744221223::0::1::::<><>::uid://cxeo2n3ky21xb::::res://addons/godot_tours/assets/fonts/mukta_bold.ttf<>res://addons/godot_tours/ui/ui_button_godot_tours.gd
 ui_selectable_tour.gd::GDScript::-1::1744386038::0::1::::<>Control<>::

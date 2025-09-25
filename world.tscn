@@ -3,7 +3,7 @@
 [node name="world" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-position = Vector2(518, 296)
+position = Vector2(359, 182)
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 
