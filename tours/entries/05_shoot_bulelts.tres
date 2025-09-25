@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TourEntry" load_steps=2 format=3 uid="uid://bhmkr08evau0y"]
+
+[ext_resource type="Script" path="res://addons/godot_tours/godot_tour_entry.gd" id="1_vdx5p"]
+
+[resource]
+script = ExtResource("1_vdx5p")
+title = "05 - Shooting Bullets"
+is_free = true
+is_locked = false
+tour_path = "res://tours/05_shoot_bullets/05_tour.gd"

@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Checkpoint" load_steps=2 format=3 uid="uid://xpowlatbypfd"]
+
+[ext_resource type="Script" path="res://addons/godot_tours/checkpoint.gd" id="1_24ibb"]
+
+[resource]
+script = ExtResource("1_24ibb")
+checkpoint_func_path = "steps_040_create_parallax_layers"

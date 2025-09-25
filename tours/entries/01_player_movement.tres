@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TourEntry" load_steps=2 format=3 uid="uid://bx2ycox2inait"]
+
+[ext_resource type="Script" path="res://addons/godot_tours/godot_tour_entry.gd" id="1_20kio"]
+
+[resource]
+script = ExtResource("1_20kio")
+title = "01 - Player Movement"
+is_free = true
+is_locked = false
+tour_path = "res://tours/01_player_movement/01_tour.gd"

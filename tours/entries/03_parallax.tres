@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TourEntry" load_steps=2 format=3 uid="uid://d2dnsmib4yrm8"]
+
+[ext_resource type="Script" path="res://addons/godot_tours/godot_tour_entry.gd" id="1_g6q7p"]
+
+[resource]
+script = ExtResource("1_g6q7p")
+title = "03 - Parallax Layers"
+is_free = true
+is_locked = false
+tour_path = "res://tours/03_parallax_layers/03_parallax.gd"

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bwkoqc16p3qd1"]
+
+[node name="world" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(518, 296)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]

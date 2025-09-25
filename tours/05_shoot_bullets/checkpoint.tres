@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Checkpoint" load_steps=2 format=3 uid="uid://cpiwj6sxdj5rt"]
+
+[ext_resource type="Script" path="res://addons/godot_tours/checkpoint.gd" id="1_aeocy"]
+
+[resource]
+script = ExtResource("1_aeocy")
+checkpoint_func_path = ""

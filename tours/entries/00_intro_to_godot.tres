@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TourEntry" load_steps=2 format=3 uid="uid://bnjn82gcuowep"]
+
+[ext_resource type="Script" path="res://addons/godot_tours/godot_tour_entry.gd" id="1_wushu"]
+
+[resource]
+script = ExtResource("1_wushu")
+title = "00 - Intro to Godot "
+is_free = true
+is_locked = false
+tour_path = "res://tours/godot-first-tour/godot_first_tour.gd"

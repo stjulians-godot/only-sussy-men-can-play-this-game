@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=3 uid="uid://i08r7b2rutc6"]
+
+[ext_resource type="Texture2D" uid="uid://b3fftm1s3rn0v" path="res://icon.svg" id="1_6nfb1"]
+[ext_resource type="Texture2D" uid="uid://mxcd13go6nas" path="res://tours/03_parallax_layers/tour_assets/parallax_images/forest_sky.png" id="2_7h7pq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8nn3i"]
+size = Vector2(128, 128)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_udkrk"]
+
+[node name="World" type="Node2D"]
+
+[node name="player" type="CharacterBody2D" parent="."]
+position = Vector2(572, 489)
+
+[node name="sprite" type="Sprite2D" parent="player"]
+texture = ExtResource("1_6nfb1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+shape = SubResource("RectangleShape2D_8nn3i")
+
+[node name="ground" type="StaticBody2D" parent="."]
+position = Vector2(576, 626)
+
+[node name="Sprite2D" type="Sprite2D" parent="ground"]
+scale = Vector2(123.078, 0.34375)
+texture = ExtResource("1_6nfb1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground"]
+position = Vector2(0, -20)
+shape = SubResource("WorldBoundaryShape2D_udkrk")
+
+[node name="SkyLayer" type="Parallax2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="SkyLayer"]
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D"]
+texture = ExtResource("2_7h7pq")
+
+[node name="Parallax2D2" type="Parallax2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D2"]
+
+[node name="Parallax2D3" type="Parallax2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D3"]
+
+[node name="Parallax2D4" type="Parallax2D" parent="."]
