@@ -1,8 +1,8 @@
 Sprite2D
+CharacterBody2D
 Parallax2D
 CollisionShape2D
 StaticBody2D
-CharacterBody2D
 Camera2D
 ParallaxBackground
 Node2D
