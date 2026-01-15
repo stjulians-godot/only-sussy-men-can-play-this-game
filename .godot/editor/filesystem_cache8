@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1763595590
+::res://::1768485537
 godot_tours.log::TextFile::-1::1763592951::0::1::::<><>::
 godot_tours.tres::Resource/TourList::6375578342048621651::1763595589::0::1::::<><>::res://addons/godot_tours/godot_tour_list.gd<>uid://bx2ycox2inait::::res://tours/entries/01_player_movement.tres<>uid://bhmkr08evau0y::::res://tours/entries/05_shoot_bulelts.tres<>uid://d2dnsmib4yrm8::::res://tours/entries/03_parallax.tres
 icon.svg::CompressedTexture2D::4362368380677387683::1763592951::1763593568::1::::<><>::
 test_video.ogv::VideoStreamTheora::-1::1763592951::0::1::::<><>::
-world.tscn::PackedScene::3952097778512897520::1763595590::0::1::::<><>::uid://dwwtbuw1sqn2b::::res://assets/kenney/PNG/blue_body_square.png<>uid://df4yetpnybr43::::res://assets/kenney/PNG/face_e.png
+world.tscn::PackedScene::3952097778512897520::1763602541::0::1::::<><>::uid://dwwtbuw1sqn2b::::res://assets/kenney/PNG/blue_body_square.png<>uid://df4yetpnybr43::::res://assets/kenney/PNG/face_e.png<>uid://6pjlvbgc4ra0::::res://assets/guns/PNG/sniper2.png
 ::res://addons/::1763592949
 ::res://addons/gd-plug/::1763592949
 plug.gd::GDScript::-1::1763592949::0::1::::<>SceneTree<>::
@@ -1070,7 +1070,7 @@ ro.po::Translation::-1::1763592951::0::1::::<><>::
 ::res://assets/::1763602415
 ::res://assets/guns/::1763602415
 Thanks.txt::TextFile::-1::1763602415::0::1::::<><>::
-::res://assets/guns/PNG/::1763602415
+::res://assets/guns/PNG/::1763602424
 ammobox.png::CompressedTexture2D::8172641725258535179::1763602415::1763602423::1::::<><>::
 assaultrifle2.png::CompressedTexture2D::5548802178388437526::1763602415::1763602424::1::::<><>::
 assaultrifle.png::CompressedTexture2D::977112119145057584::1763602415::1763602423::1::::<><>::
@@ -1096,7 +1096,7 @@ smg2.png::CompressedTexture2D::4177568806982503404::1763602415::1763602423::1:::
 smg.png::CompressedTexture2D::1018027944227591225::1763602415::1763602423::1::::<><>::
 sniper2.png::CompressedTexture2D::2207387020569354725::1763602415::1763602423::1::::<><>::
 sniper.png::CompressedTexture2D::7803701062870990649::1763602415::1763602423::1::::<><>::
-::res://assets/guns/PNG/Alternative color/::1763602415
+::res://assets/guns/PNG/Alternative color/::1763602423
 ammobox.png::CompressedTexture2D::4044520366510384849::1763602415::1763602423::1::::<><>::
 assaultrifle2.png::CompressedTexture2D::9045067333222350918::1763602415::1763602423::1::::<><>::
 assaultrifle.png::CompressedTexture2D::6448300225677047842::1763602415::1763602423::1::::<><>::
@@ -1122,7 +1122,7 @@ smg2.png::CompressedTexture2D::1570207754655276207::1763602415::1763602423::1:::
 smg.png::CompressedTexture2D::9105519671736873449::1763602415::1763602423::1::::<><>::
 sniper2.png::CompressedTexture2D::207245740034162972::1763602415::1763602423::1::::<><>::
 sniper.png::CompressedTexture2D::2567687297143873464::1763602415::1763602423::1::::<><>::
-::res://assets/guns/PNG higher resolution (@2x)/::1763602415
+::res://assets/guns/PNG higher resolution (@2x)/::1763602423
 ammobox.png::CompressedTexture2D::8512179119087752619::1763602415::1763602422::1::::<><>::
 assaultrifle2.png::CompressedTexture2D::8583178408536541502::1763602415::1763602422::1::::<><>::
 assaultrifle.png::CompressedTexture2D::7113040816553068075::1763602415::1763602422::1::::<><>::
@@ -1148,7 +1148,7 @@ smg2.png::CompressedTexture2D::6243969689756970888::1763602415::1763602423::1:::
 smg.png::CompressedTexture2D::4429997206078409251::1763602415::1763602422::1::::<><>::
 sniper2.png::CompressedTexture2D::1837134924493973907::1763602415::1763602422::1::::<><>::
 sniper.png::CompressedTexture2D::6237313910355868607::1763602415::1763602423::1::::<><>::
-::res://assets/guns/PNG higher resolution (@2x)/Alternative color higher resolution (@2x)/::1763602415
+::res://assets/guns/PNG higher resolution (@2x)/Alternative color higher resolution (@2x)/::1763602423
 ammobox.png::CompressedTexture2D::4805547500218338896::1763602415::1763602423::1::::<><>::
 assaultrifle2.png::CompressedTexture2D::4982730783304569693::1763602415::1763602423::1::::<><>::
 assaultrifle.png::CompressedTexture2D::5324229652285437374::1763602415::1763602423::1::::<><>::
@@ -1174,13 +1174,13 @@ smg2.png::CompressedTexture2D::4695921887294074418::1763602415::1763602422::1:::
 smg.png::CompressedTexture2D::938327080986902774::1763602415::1763602422::1::::<><>::
 sniper2.png::CompressedTexture2D::1833124805170376095::1763602415::1763602422::1::::<><>::
 sniper.png::CompressedTexture2D::2426711442366513449::1763602415::1763602422::1::::<><>::
-::res://assets/guns/Spritesheet/::1763602415
+::res://assets/guns/Spritesheet/::1763602424
 spritesheet.png::CompressedTexture2D::8040616899416166100::1763602415::1763602423::1::::<><>::
 spritesheet@2x.png::CompressedTexture2D::5048214472022379266::1763602415::1763602424::1::::<><>::
-::res://assets/guns/Spritesheet/Alternative Color/::1763602415
+::res://assets/guns/Spritesheet/Alternative Color/::1763602423
 spritesheet_alt.png::CompressedTexture2D::8180169217463656385::1763602415::1763602423::1::::<><>::
 spritesheet_alt@2x.png::CompressedTexture2D::5138396472285887579::1763602415::1763602423::1::::<><>::
-::res://assets/guns/vector/::1763602415
+::res://assets/guns/vector/::1763602423
 vector_guns.svg::CompressedTexture2D::1905837160050778716::1763602415::1763602423::1::::<><>::
 vector_guns_alternativecolor.svg::CompressedTexture2D::8494070273124504473::1763602415::1763602423::1::::<><>::
 ::res://assets/kenney/::1763595389
