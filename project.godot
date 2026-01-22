@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Only Sussy Men Can Play this Game"
-run/main_scene="res://world.tscn"
+run/main_scene="res://levels/world.tscn"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://addons/godot_tours/assets/logo.png"
 
@@ -22,10 +22,6 @@ window/size/always_on_top=true
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_tours/plugin.cfg")
-
-[internationalization]
-
-locale/translations_pot_files=PackedStringArray("res://addons/godot_tours/tour.gd", "res://tours/01_player_movement/01_tour.gd", "res://tours/03_parallax_layers/03_parallax.gd", "res://tours/05_shoot_bullets/05_tour.gd")
 
 [rendering]
 

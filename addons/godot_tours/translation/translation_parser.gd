@@ -8,7 +8,7 @@ const PATTERNS := [
 
 var regex := RegEx.new()
 
-
+"""
 func _parse_file(path: String, msgids: Array[String], msgids_context_plural: Array[Array]) -> void:
 	var source_code: String = load(path).source_code
 	for pattern in PATTERNS:
@@ -21,7 +21,7 @@ func _parse_file(path: String, msgids: Array[String], msgids_context_plural: Arr
 				plural = _replace_quotes(regex_match.strings[2])
 				context = regex_match.strings[3]
 			msgids_context_plural.push_back([singular, context, plural])
-
+"""
 
 func _get_recognized_extensions() -> PackedStringArray:
 	return ["gd"]

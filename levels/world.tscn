@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://bwkoqc16p3qd1"]
 
-[ext_resource type="Texture2D" uid="uid://dwwtbuw1sqn2b" path="res://assets/kenney/PNG/blue_body_square.png" id="1_0m16g"]
-[ext_resource type="Texture2D" uid="uid://df4yetpnybr43" path="res://assets/kenney/PNG/face_e.png" id="2_iuvh7"]
-[ext_resource type="Texture2D" uid="uid://6pjlvbgc4ra0" path="res://assets/guns/PNG/sniper2.png" id="3_2o7xn"]
+[ext_resource type="Texture2D" uid="uid://dwwtbuw1sqn2b" path="res://assets/kenney/PNG/blue_body_square.png" id="1_pmfem"]
+[ext_resource type="Texture2D" uid="uid://df4yetpnybr43" path="res://assets/kenney/PNG/face_e.png" id="2_w32yo"]
+[ext_resource type="Texture2D" uid="uid://6pjlvbgc4ra0" path="res://assets/guns/PNG/sniper2.png" id="3_712nc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ay2ns"]
 size = Vector2(82, 80)
@@ -13,10 +13,10 @@ size = Vector2(82, 80)
 position = Vector2(427, 246)
 
 [node name="body" type="Sprite2D" parent="CharacterBody2D"]
-texture = ExtResource("1_0m16g")
+texture = ExtResource("1_pmfem")
 
 [node name="face" type="Sprite2D" parent="CharacterBody2D"]
-texture = ExtResource("2_iuvh7")
+texture = ExtResource("2_w32yo")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("RectangleShape2D_ay2ns")
@@ -24,4 +24,4 @@ shape = SubResource("RectangleShape2D_ay2ns")
 [node name="Sniper2" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(64, 25)
 scale = Vector2(0.390625, 0.390625)
-texture = ExtResource("3_2o7xn")
+texture = ExtResource("3_712nc")
