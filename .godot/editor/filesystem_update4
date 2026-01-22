@@ -1,4 +1,2 @@
-res://levels/world.tscn
+res://prefabs/bullet.tscn
 res://addons/godot_tours/ui/theme_welcome_menu.tres
-res://addons/godot_tours/translation/translation_parser.gd
-res://addons/godot_tours/editor_interface_access.gd
