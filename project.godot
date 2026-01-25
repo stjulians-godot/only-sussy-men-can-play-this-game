@@ -23,10 +23,6 @@ window/size/always_on_top=true
 
 enabled=PackedStringArray("res://addons/godot_tours/plugin.cfg")
 
-[internationalization]
-
-locale/translations_pot_files=PackedStringArray("res://addons/godot_tours/tour.gd", "res://tours/01_player_movement/01_tour.gd", "res://tours/03_parallax_layers/03_parallax.gd", "res://tours/05_shoot_bullets/05_tour.gd")
-
 [rendering]
 
 textures/canvas_textures/default_texture_filter="Nearest"
