@@ -1,5 +1,45 @@
-[gd_scene format=3 uid="uid://cd5bo43fmqlw1"]
+[gd_scene load_steps=9 format=3 uid="uid://cd5bo43fmqlw1"]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[ext_resource type="Script" uid="uid://bkucvnvhvxhr3" path="res://prefabs/bullet.gd" id="1_gopbw"]
+[ext_resource type="Texture2D" uid="uid://dfgq28r40knrw" path="res://assets/Laser Sprites/02.png" id="2_d8074"]
+[ext_resource type="Texture2D" uid="uid://d4cmcx4u58c10" path="res://assets/Laser Sprites/14.png" id="3_6jtdi"]
+[ext_resource type="Texture2D" uid="uid://gii1abq7cod1" path="res://assets/Laser Sprites/24.png" id="4_qhkqn"]
+[ext_resource type="Texture2D" uid="uid://c6lkujmiwenay" path="res://assets/Laser Sprites/33.png" id="5_2o2rj"]
+[ext_resource type="Texture2D" uid="uid://bj56s2ei8gnd5" path="res://assets/Laser Sprites/42.png" id="6_rhf82"]
+[ext_resource type="Texture2D" uid="uid://bwe10o5bw6vie" path="res://assets/Laser Sprites/59.png" id="7_fw3qv"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[sub_resource type="SpriteFrames" id="SpriteFrames_3ts6m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_d8074")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6jtdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qhkqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2o2rj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rhf82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fw3qv")
+}],
+"loop": false,
+"name": &"default",
+"speed": 4.0
+}]
+
+[node name="Bullet" type="CharacterBody2D"]
+script = ExtResource("1_gopbw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_3ts6m")
+frame = 5
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
