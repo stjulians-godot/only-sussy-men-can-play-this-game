@@ -1,4 +1,5 @@
 Marker2D
+Area2D
 CollisionShape2D
 AnimatedSprite2D
 Sprite2D
@@ -11,5 +12,3 @@ Node2D
 Node
 ScrollContainer
 OptionButton
-MenuButton
-ColorPickerButton

@@ -1,6 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769704715
-godot_tours.log::TextFile::-1::1767891752::0::1::::<><><>0<>0<><>::
+::res://::1772123418
+godot_tours.log::TextFile::-1::1770311188::0::1::::<><><>0<>0<><>::
 godot_tours.tres::Resource/TourList::6375578342048621651::1767891752::0::1::::<><><>0<>0<><>::res://addons/godot_tours/godot_tour_list.gd<>uid://bx2ycox2inait::::res://tours/entries/01_player_movement.tres<>uid://bhmkr08evau0y::::res://tours/entries/05_shoot_bulelts.tres<>uid://d2dnsmib4yrm8::::res://tours/entries/03_parallax.tres
 icon.svg::CompressedTexture2D::4362368380677387683::1767891752::1769098750::1::::<><><>0<>0<>01f7410a9926bb7c2b56891f3d0e4340<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 test_video.ogv::VideoStreamTheora::4301455607994067232::1767891752::0::1::::<><><>0<>0<><>::
@@ -1054,9 +1054,9 @@ highlight.tscn::PackedScene::7216596171565299285::1767891751::0::1::::<><><>0<>0
 ::res://addons/godot_tours/translation/::1769098405
 translation_parser.gd::GDScript::4901856499605280144::1769098405::0::1::::<>EditorTranslationParserPlugin<><>0<>1<><>::
 translation_service.gd::GDScript::3806800606019080034::1767891751::0::1::::<>RefCounted<><>0<>0<><>::
-::res://addons/godot_tours/ui/::1769704643
+::res://addons/godot_tours/ui/::1769706267
 theme_utils.gd::GDScript::2757394542542613058::1767891751::0::1::::<>RefCounted<><>0<>1<><>::
-theme_welcome_menu.tres::Theme::2260626022723727733::1769704643::0::1::::<><><>0<>0<><>::uid://cxeo2n3ky21xb::::res://addons/godot_tours/assets/fonts/mukta_bold.ttf<>uid://dmv0g5yqal8s7::::res://addons/godot_tours/assets/icons/lock.svg<>uid://b0tcgxag5h452::::res://addons/godot_tours/assets/fonts/poppins_regular.ttf<>uid://b0egmv7mkouwp::::res://addons/godot_tours/assets/fonts/poppins_bold.ttf<>uid://cowlnwvq0rikj::::res://addons/godot_tours/assets/fonts/poppins_italic.ttf<>uid://c3xincxynype7::::res://addons/godot_tours/assets/fonts/hasklug_nerd_mono.otf
+theme_welcome_menu.tres::Theme::2260626022723727733::1769706267::0::1::::<><><>0<>0<><>::uid://cxeo2n3ky21xb::::res://addons/godot_tours/assets/fonts/mukta_bold.ttf<>uid://dmv0g5yqal8s7::::res://addons/godot_tours/assets/icons/lock.svg<>uid://b0tcgxag5h452::::res://addons/godot_tours/assets/fonts/poppins_regular.ttf<>uid://b0egmv7mkouwp::::res://addons/godot_tours/assets/fonts/poppins_bold.ttf<>uid://cowlnwvq0rikj::::res://addons/godot_tours/assets/fonts/poppins_italic.ttf<>uid://c3xincxynype7::::res://addons/godot_tours/assets/fonts/hasklug_nerd_mono.otf
 ui_button_godot_tours.gd::GDScript::9194065769549030634::1767891751::0::1::::<>Button<><>0<>1<><>::
 ui_button_godot_tours.tscn::PackedScene::3420466119053531884::1767891751::0::1::::<><><>0<>0<><>::uid://cxeo2n3ky21xb::::res://addons/godot_tours/assets/fonts/mukta_bold.ttf<>res://addons/godot_tours/ui/ui_button_godot_tours.gd
 ui_selectable_tour.gd::GDScript::6535886570299655831::1767891751::0::1::::<>Control<><>0<>1<><>::
@@ -1294,7 +1294,7 @@ yellow_body_square.png::CompressedTexture2D::2605025436317944195::1767891752::17
 yellow_body_squircle.png::CompressedTexture2D::914081805068729893::1767891752::1769098751::1::::<><><>0<>0<>4ccca56af40080823b0c634b3717b694<>res://.godot/imported/yellow_body_squircle.png-ef5fe49d6550309dd6fef4bd012b48a2.ctex::
 ::res://assets/kenney/Spritesheet/::1769098751
 spritesheet_default.png::CompressedTexture2D::3259091316435331948::1767891752::1769098751::1::::<><><>0<>0<>1a99bbbc07cd0802af9f84b8e78e9dce<>res://.godot/imported/spritesheet_default.png-8e0ac12ac6ae9bc54b58356a36383d06.ctex::
-::res://assets/Laser Sprites/::1769704675
+::res://assets/Laser Sprites/::1769704760
 01.png::CompressedTexture2D::8203643340874768107::1769704675::1769704760::1::::<><><>0<>0<>fdc2b6b03bc50664471bc0c45f2099b5<>res://.godot/imported/01.png-a8211bc9c580e0101ea06021a6f2afcf.ctex::
 02.png::CompressedTexture2D::7523613984997193548::1769704675::1769704760::1::::<><><>0<>0<>f90c26e302ad86a051038083e6711d90<>res://.godot/imported/02.png-c7fbf39739e03600d6988d672981e9a5.ctex::
 03.png::CompressedTexture2D::3245971001837785704::1769704675::1769704760::1::::<><><>0<>0<>3f1fbd9fdc3f45424ba7c24121765ebe<>res://.godot/imported/03.png-9ea8c1b4efff6434369c802fcdb6c7e5.ctex::
@@ -1361,10 +1361,11 @@ spritesheet_default.png::CompressedTexture2D::3259091316435331948::1767891752::1
 64.png::CompressedTexture2D::9215708084700372928::1769704675::1769704760::1::::<><><>0<>0<>4069ca0c9bd83134f4332953c90adbcf<>res://.godot/imported/64.png-e3901b3697e9db5036040bc7d57a12b1.ctex::
 65.png::CompressedTexture2D::683661167888734078::1769704675::1769704760::1::::<><><>0<>0<>bb113741490cd56b09dc672ddd40920c<>res://.godot/imported/65.png-4782ebc96752474c7f297c91e64deaf6.ctex::
 66.png::CompressedTexture2D::5308551058658694508::1769704675::1769704760::1::::<><><>0<>0<>4ae06f621f4b31efe11bb3b691d48465<>res://.godot/imported/66.png-c8923bf82a5cd7027cc6d10e0ed1b73a.ctex::
-::res://levels/::1769098405
-world.tscn::PackedScene::3952097778512897520::1769098405::0::1::::<><><>0<>0<><>::uid://dwwtbuw1sqn2b::::res://assets/kenney/PNG/blue_body_square.png<>uid://df4yetpnybr43::::res://assets/kenney/PNG/face_e.png<>uid://6pjlvbgc4ra0::::res://assets/guns/PNG/sniper2.png
-::res://prefabs/::1769101519
-bullet.tscn::PackedScene::5045426515705060882::1769101519::0::1::::<><><>0<>0<><>::
+::res://levels/::1769706607
+world.tscn::PackedScene::3952097778512897520::1769706607::0::1::::<><><>0<>0<><>::uid://dwwtbuw1sqn2b::::res://assets/kenney/PNG/blue_body_square.png<>uid://df4yetpnybr43::::res://assets/kenney/PNG/face_e.png<>uid://6pjlvbgc4ra0::::res://assets/guns/PNG/sniper2.png
+::res://prefabs/::1770311153
+bullet.gd::GDScript::3129756326403624482::1770311153::0::1::::<>Area2D<><>0<>0<><>::
+bullet.tscn::PackedScene::5045426515705060882::1769706267::0::1::::<><><>0<>0<><>::uid://bkucvnvhvxhr3::::res://prefabs/bullet.gd<>uid://dfgq28r40knrw::::res://assets/Laser Sprites/02.png<>uid://d4cmcx4u58c10::::res://assets/Laser Sprites/14.png<>uid://gii1abq7cod1::::res://assets/Laser Sprites/24.png<>uid://c6lkujmiwenay::::res://assets/Laser Sprites/33.png<>uid://bj56s2ei8gnd5::::res://assets/Laser Sprites/42.png<>uid://bwe10o5bw6vie::::res://assets/Laser Sprites/59.png
 ::res://scritps/::1768493724
 player.gd::GDScript::8176271648965846206::1767891752::0::1::::<>Area2D<><>0<>0<><>::
 ::res://tours/::1767891752
