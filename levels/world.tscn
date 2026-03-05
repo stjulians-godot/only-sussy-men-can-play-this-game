@@ -56,7 +56,7 @@ position = Vector2(64, 25)
 scale = Vector2(0.390625, 0.390625)
 texture = ExtResource("3_712nc")
 
-[node name="Marker2D" type="Marker2D" parent="player"]
+[node name="spawn_point" type="Marker2D" parent="player"]
 position = Vector2(171, 19)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
@@ -72,4 +72,4 @@ texture = SubResource("GradientTexture2D_712nc")
 
 [node name="collision" type="CollisionShape2D" parent="test_floor"]
 shape = SubResource("RectangleShape2D_w32yo")
-debug_color = Color(0.7987878, 0.26482773, 9.62615e-08, 0.41960785)
+debug_color = Color(0.122701, 0.5385089, 0.5184258, 0.41960785)

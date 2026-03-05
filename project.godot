@@ -22,7 +22,7 @@ window/vsync/vsync_mode=0
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_tours/plugin.cfg")
+enabled=PackedStringArray()
 
 [input]
 

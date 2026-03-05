@@ -12,5 +12,5 @@ func _on_body_entered(body):
 	queue_free()
 	
 	# If we hit an enemy, damage it
-	if body.has_method("take_damage"):
-		body.take_damage(1)
+	#if body.has_method("take_damage"):
+		#body.take_damage(1)

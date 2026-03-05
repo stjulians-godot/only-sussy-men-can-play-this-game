@@ -1,2 +1,4 @@
+res://scritps/bullet.gd
 res://levels/world.tscn
 res://scritps/player.gd
+res://prefabs/bullet.tscn
