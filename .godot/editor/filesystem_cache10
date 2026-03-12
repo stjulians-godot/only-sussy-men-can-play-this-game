@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1772727940
+::res://::1773333050
 icon.svg::CompressedTexture2D::4362368380677387683::1767891752::1769098750::1::::<><><>0<>0<>01f7410a9926bb7c2b56891f3d0e4340<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1769704675
 ::res://assets/ash/::1768496438
@@ -296,10 +296,10 @@ spritesheet_default.png::CompressedTexture2D::3259091316435331948::1767891752::1
 64.png::CompressedTexture2D::9215708084700372928::1769704675::1769704760::1::::<><><>0<>0<>4069ca0c9bd83134f4332953c90adbcf<>res://.godot/imported/64.png-e3901b3697e9db5036040bc7d57a12b1.ctex::
 65.png::CompressedTexture2D::683661167888734078::1769704675::1769704760::1::::<><><>0<>0<>bb113741490cd56b09dc672ddd40920c<>res://.godot/imported/65.png-4782ebc96752474c7f297c91e64deaf6.ctex::
 66.png::CompressedTexture2D::5308551058658694508::1769704675::1769704760::1::::<><><>0<>0<>4ae06f621f4b31efe11bb3b691d48465<>res://.godot/imported/66.png-c8923bf82a5cd7027cc6d10e0ed1b73a.ctex::
-::res://levels/::1772727934
-world.tscn::PackedScene::3952097778512897520::1772727934::0::1::::<><><>0<>0<><>::uid://dwwtbuw1sqn2b::::res://assets/kenney/PNG/blue_body_square.png<>uid://lvxfvcb8qnqc::::res://scritps/player.gd<>uid://df4yetpnybr43::::res://assets/kenney/PNG/face_e.png<>uid://6pjlvbgc4ra0::::res://assets/guns/PNG/sniper2.png
-::res://prefabs/::1772727685
-bullet.tscn::PackedScene::5045426515705060882::1772727685::0::1::::<><><>0<>0<><>::uid://bkucvnvhvxhr3::::res://scritps/bullet.gd<>uid://dfgq28r40knrw::::res://assets/Laser Sprites/02.png<>uid://d4cmcx4u58c10::::res://assets/Laser Sprites/14.png<>uid://gii1abq7cod1::::res://assets/Laser Sprites/24.png<>uid://c6lkujmiwenay::::res://assets/Laser Sprites/33.png<>uid://bj56s2ei8gnd5::::res://assets/Laser Sprites/42.png<>uid://bwe10o5bw6vie::::res://assets/Laser Sprites/59.png
-::res://scritps/::1772727685
-bullet.gd::GDScript::3129756326403624482::1772125711::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript::816835738826905478::1772727624::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://levels/::1772730862
+world.tscn::PackedScene::3952097778512897520::1772730862::0::1::::<><><>0<>0<><>::uid://dwwtbuw1sqn2b::::res://assets/kenney/PNG/blue_body_square.png<>uid://lvxfvcb8qnqc::::res://scritps/player.gd<>uid://df4yetpnybr43::::res://assets/kenney/PNG/face_e.png<>uid://6pjlvbgc4ra0::::res://assets/guns/PNG/sniper2.png
+::res://prefabs/::1772730692
+bullet.tscn::PackedScene::5045426515705060882::1772730692::0::1::::<><><>0<>0<><>::uid://bkucvnvhvxhr3::::res://scritps/bullet.gd<>uid://dfgq28r40knrw::::res://assets/Laser Sprites/02.png<>uid://d4cmcx4u58c10::::res://assets/Laser Sprites/14.png<>uid://gii1abq7cod1::::res://assets/Laser Sprites/24.png<>uid://c6lkujmiwenay::::res://assets/Laser Sprites/33.png<>uid://bj56s2ei8gnd5::::res://assets/Laser Sprites/42.png<>uid://bwe10o5bw6vie::::res://assets/Laser Sprites/59.png
+::res://scritps/::1772730790
+bullet.gd::GDScript::3129756326403624482::1772730692::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::816835738826905478::1772730790::0::1::::<>CharacterBody2D<><>0<>0<><>::

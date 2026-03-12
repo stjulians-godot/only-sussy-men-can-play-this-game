@@ -1,11 +1,19 @@
 extends Area2D
 
+@onready var player: CharacterBody2D = $player
+
 var speed: float = 600.0
 var direction: Vector2 = Vector2.RIGHT
+var direction_left: Vector2 = Vector2.LEFT
+
 
 func _physics_process(delta):
 	# Move the bullet
 	position += direction * speed * delta
+	####
+	
+	
+
 
 func _on_body_entered(body):
 	# Hit something! Destroy the bullet
