@@ -49,12 +49,10 @@ func shoot():
 	bullet.position = spawn_point.global_position	
 	
 	# Set direction based on facing
-	"""
-	if facing_right:
-		bullet.direction = Vector2.RIGHT
-	else:
+	if sniper.flip_h:
 		bullet.direction = Vector2.LEFT
-	"""
+	else:
+		bullet.direction = Vector2.RIGHT
 	
 		
 	# Add bullet to the scene
