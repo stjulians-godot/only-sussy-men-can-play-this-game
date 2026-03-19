@@ -47,4 +47,9 @@ frame_progress = 1.0
 
 [node name="bullet spawn point" type="Marker2D" parent="."]
 
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(25, -2)
+rect = Rect2(-122, -25, 157, 51)
+
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

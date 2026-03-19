@@ -7,7 +7,7 @@ const JUMP_VELOCITY = -500.0
 var bullet_scene = preload("res://prefabs/bullet.tscn")
 @onready var sniper: Sprite2D = $sniper
 @onready var spawn_point: Marker2D = $spawn_point
-
+var can_shoot = true
 
 
 
@@ -20,8 +20,9 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept"):#and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
-	if Input.is_action_just_pressed("LMB"):
+	if Input.is_action_just_pressed("LMB") and can_shoot == true:
 		shoot()
+		can_shoot = false
 
 	# Get the input direction and handle the movement/deceleration.
 	var direction := Input.get_axis("ui_left", "ui_right")
@@ -57,3 +58,8 @@ func shoot():
 		
 	# Add bullet to the scene
 	get_tree().root.add_child(bullet)
+
+
+func _on_timer_timeout() -> void:
+	can_shoot = true
+	

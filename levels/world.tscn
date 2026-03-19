@@ -63,6 +63,9 @@ position = Vector2(171, 19)
 position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_ay2ns")
 
+[node name="Timer" type="Timer" parent="player"]
+autostart = true
+
 [node name="test_floor" type="StaticBody2D" parent="."]
 position = Vector2(583, 534)
 
@@ -73,3 +76,5 @@ texture = SubResource("GradientTexture2D_712nc")
 [node name="collision" type="CollisionShape2D" parent="test_floor"]
 shape = SubResource("RectangleShape2D_w32yo")
 debug_color = Color(0.122701, 0.5385089, 0.5184258, 0.41960785)
+
+[connection signal="timeout" from="player/Timer" to="player" method="_on_timer_timeout"]

@@ -1,3 +1,5 @@
+Timer
+VisibleOnScreenNotifier2D
 Sprite2D
 Label      - Matches the "text" keyword.
 Node
@@ -10,5 +12,3 @@ CharacterBody2D
 Parallax2D
 Camera2D
 ParallaxBackground
-Node2D
-ScrollContainer
