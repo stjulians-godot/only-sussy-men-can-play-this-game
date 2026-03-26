@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://bwkoqc16p3qd1"]
+[gd_scene load_steps=12 format=3 uid="uid://bwkoqc16p3qd1"]
 
 [ext_resource type="Texture2D" uid="uid://dwwtbuw1sqn2b" path="res://assets/kenney/PNG/blue_body_square.png" id="1_pmfem"]
 [ext_resource type="Script" uid="uid://lvxfvcb8qnqc" path="res://scritps/player.gd" id="1_w32yo"]
 [ext_resource type="Texture2D" uid="uid://df4yetpnybr43" path="res://assets/kenney/PNG/face_e.png" id="2_w32yo"]
 [ext_resource type="Texture2D" uid="uid://6pjlvbgc4ra0" path="res://assets/guns/PNG/sniper2.png" id="3_712nc"]
+[ext_resource type="Texture2D" uid="uid://be6kfx4ekvgxb" path="res://addons/photo_2026-03-26_14-19-28-removebg-preview.png" id="5_712nc"]
 
 [sub_resource type="Gradient" id="Gradient_712nc"]
 colors = PackedColorArray(3.008172e-08, 0, 0.2095209, 1, 0.4392157, 0.1882353, 1, 1)
@@ -76,5 +77,16 @@ texture = SubResource("GradientTexture2D_712nc")
 [node name="collision" type="CollisionShape2D" parent="test_floor"]
 shape = SubResource("RectangleShape2D_w32yo")
 debug_color = Color(0.122701, 0.5385089, 0.5184258, 0.41960785)
+
+[node name="greatest_teacher_ever" type="CharacterBody2D" parent="."]
+position = Vector2(852, 222)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="greatest_teacher_ever"]
+scale = Vector2(0.87866664, 0.8786667)
+polygon = PackedVector2Array(29.5, -85.8, 6.5, -88.2, 6.5, -86.600006, 0.3999939, -85, -3.699997, -85, -12.600006, -69, -14.399994, -69, -15.5, -40, -15.5, -33.600006, -8.5, -14.600006, -8.5, -13.5, -51.100006, 4, -53.399994, 4, -94.4, 53, -95.8, 53, -103.8, 70, -106, 70, -103.5, 81.399994, -103.5, 84.5, -90.5, 108.600006, -90.5, 110.600006, -72.5, 136, -71.8, 136, -65.5, 150.29999, -65.5, 153, -57.5, 159, -57.5, 161.29999, -49.800003, 160.20001, -57.300003, 226, -58.5, 226, -58.5, 298.59998, -65.5, 329.8, -65.5, 333, 2.399994, 333, 14.300003, 247.40002, 21, 269, 21.800003, 269, 31.399994, 333, 94.5, 333, 88.5, 267.8, 88.5, 258.8, 74.5, 172.70001, 74.5, 159.70001, 78.79999, 159, 81.29999, 159, 88.29999, 152, 89.70001, 152, 99.5, 133.5, 99.5, 131.6, 121.399994, 105, 122.79999, 105, 131.79999, 84, 133.5, 84, 133.5, 71.399994, 128.5, 64.29999, 128.5, 61.200012, 80.5, 8.200012, 80.5, 6.600006, 36, -10.600006, 43, -33, 45.199997, -33, 42, -44, 43.5, -50.799988, 43.5, -61.5, 40.5, -67.5, 40.5, -71.79999, 29.5, -83.899994)
+
+[node name="Photo20260326141928RemovebgPreview" type="Sprite2D" parent="greatest_teacher_ever"]
+scale = Vector2(0.87866664, 0.8786667)
+texture = ExtResource("5_712nc")
 
 [connection signal="timeout" from="player/Timer" to="player" method="_on_timer_timeout"]

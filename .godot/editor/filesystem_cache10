@@ -1,6 +1,14 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773966253
+::res://::1774534423
 icon.svg::CompressedTexture2D::4362368380677387683::1763592951::1769088560::1::::<><><>0<>0<>01f7410a9926bb7c2b56891f3d0e4340<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://addons/::1774535019
+photo_2026-03-26_14-19-28-removebg-preview.png::CompressedTexture2D::2731789120550592303::1774535019::1774535019::1::::<><><>0<>0<>3c7d72f9d6c8e1aa34d90fae2d8632f5<>res://.godot/imported/photo_2026-03-26_14-19-28-removebg-preview.png-41bf61c74c9ca8ebb47603aad3041c3c.ctex::
+::res://addons/queue_plugin/::1773966332
+plugin.cfg::TextFile::-1::1773966332::0::1::::<><><>0<>0<><>::
+plugin.gd::GDScript::5863586373450917364::1773966332::0::1::::<>EditorPlugin<><>0<>1<><>::
+::res://addons/queue_plugin/dock/::1773966332
+queue_dock.gd::GDScript::9074723985459969419::1773966332::0::1::::<>VBoxContainer<><>0<>1<><>::
+queue_dock.tscn::PackedScene::5737027582934494::1773966332::0::1::::<><><>0<>0<><>::res://addons/queue_plugin/dock/queue_dock.gd
 ::res://assets/::1769337518
 ::res://assets/guns/::1763602415
 Thanks.txt::TextFile::-1::1763602415::0::1::::<><><>0<>0<><>::
